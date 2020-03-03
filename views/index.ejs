@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <%- include("header") -%>
+
+  <body>
+    <main>
+      <div class="title-div">
+        <h1>Super names</h1>
+        <p>What should your next super name be? Select one of the options bellow and let's find out!</p>
+        <h2><%=superName%></h2>
+      </div>
+
+      <div class="form-div">
+        <form action="/" method="post">
+          <div class="form-group">
+            <label for="name-type">What do you wanna do today?</label>
+
+            <div class="form-check">
+              <% if (superType == "hero") { %>
+                <input class="form-check-input" type="radio" name="nameType" id="hero" value="hero" checked>
+              <% } else { %>
+                <input class="form-check-input" type="radio" name="nameType" id="hero" value="hero">
+
+              <% } %>
+
+              <label class="form-check-label" for="hero">Protect peace, because that's what heroes do 🙂.</label>
+            </div>
+
+            <div class="form-check">
+              <% if (superType == "villain") { %>
+                <input class="form-check-input" type="radio" name="nameType" id="villain" value="villain" checked>
+              <% } else { %>
+                <input class="form-check-input" type="radio" name="nameType" id="villain" value="villain">
+              <% } %>
+              <label class="form-check-label" for="villain">Life's boring, let's create chaos 😈!</label>
+            </div>
+          </div>
+<button type="submit" class="btn btn-primary btn-lg btn-block" name="submit">Create name</button>
+
+        </form>
+
+      </div>
+    </main>
+
+  </body>
+</html>
