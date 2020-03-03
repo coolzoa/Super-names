@@ -1,0 +1,33 @@
+
+:root {
+  --background-color-1: #4d089a;
+  --background-color-2: #ff5151;
+  --form-color: #23374d;
+  --text-color: #ffffff;
+}
+
+body {
+  font-family: 'Bubblegum Sans', cursive;
+  background: linear-gradient(85deg, var(--background-color-1), var(--background-color-2));
+  text-align: center;
+  margin: 0;
+  color: var(--text-color);
+}
+
+
+
+.title-div {
+  position: relative;
+  top: 30px;
+  margin-bottom: 100px;
+}
+
+.form-div {
+  padding: 30px;
+  text-align: left;
+  line-height: 2rem;
+  background-color: var(--form-color);
+  width: 50%;
+  margin: auto;
+  font-size: 18px;
+}
