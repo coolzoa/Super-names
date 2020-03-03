@@ -28,6 +28,4 @@ Add additional notes about how to deploy this on a live system
 ## Acknowledgments
 
 * Applying knowledge learnt from [London App Brewery](https://www.londonappbrewery.com) [online course](https://www.udemy.com/course/the-complete-web-development-bootcamp/).
-* 
-* etc
 
