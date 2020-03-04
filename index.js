@@ -14,7 +14,7 @@ app.use(express.static("public"));
 //target the home route
 app.get("/", function(req, res) {
   //no hero
-  res.render("index", {superName: "", superType: "hero"});
+  res.render("index", {superName: "Anaconda", superType: "hero"});
 });
 
 app.post("/", function(req, res) {
